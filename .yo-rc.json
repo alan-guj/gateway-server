@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "top.jyx365.gateway",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "4.4.1",
+    "baseName": "GatewayServer",
+    "packageName": "top.jyx365.gateway",
+    "packageFolder": "top/jyx365/gateway",
+    "serverPort": "8899",
+    "authenticationType": "uaa",
+    "uaaBaseName": "AuthServer",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "clientFramework": "angular2",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "gateway",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn"
+    ]
+  }
+}
